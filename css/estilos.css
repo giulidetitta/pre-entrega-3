@@ -1,0 +1,313 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* boostraps de nosotros */
+.container .nosotros {
+  font-size: 80px;
+  margin-top: 150px;
+  text-align: center; }
+
+.container .parrafo {
+  font-size: 30px;
+  margin-bottom: 100px; }
+
+/* index */
+header {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 100%; }
+  header h1 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif; }
+  header nav {
+    display: flex; }
+    header nav ul {
+      display: flex;
+      list-style: none;
+      align-items: center; }
+      header nav ul li {
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px; }
+        header nav ul li:hover {
+          color: white;
+          /* font weight, es para darle mas ancho a las letras */
+          font-weight: bold; }
+
+/* index */
+.hero {
+  background-image: url(../tp-1/media/2023-lucid-air-1.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .hero h2 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.453);
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px; }
+  .hero h4 {
+    color: yellow;
+    margin-top: 470px;
+    width: 1000px;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    margin-left: 200px; }
+
+/* index */
+.finish {
+  background-color: gold;
+  height: 100px; }
+  .finish img {
+    padding: 20px;
+    width: 80px;
+    border-radius: 10px; }
+    .finish img .horarios {
+      font-size: 20px;
+      margin-left: 370px;
+      margin-top: -30px; }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; }
+    header nav ul li a {
+      display: flex;
+      flex-direction: column; }
+  .main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 150px);
+    grid-template-areas: "area1 area2" "area3 area4" "area5 area6" "area7 area8" "area9"; }
+  .hero {
+    height: 1200px; }
+    .hero div h4 {
+      width: 500px;
+      margin-bottom: 150px; }
+  .ciento2 .cien img {
+    width: 200px;
+    height: 150px; }
+  .finish {
+    margin-top: 800px; } }
+
+header {
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 100%; }
+  header h1 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif; }
+  header nav {
+    display: flex; }
+    header nav ul {
+      display: flex;
+      list-style: none;
+      align-items: center; }
+      header nav ul li {
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px; }
+        header nav ul li:hover {
+          color: white;
+          /* font weight, es para darle mas ancho a las letras */
+          font-weight: bold; }
+
+/* main del index */
+.hero {
+  background-image: url(../tp-1/media/2023-lucid-air-1.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .hero div h2 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.453);
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px; }
+  .hero div h4 {
+    color: yellow;
+    margin-top: 470px;
+    width: 1000px;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    margin-left: 200px; }
+
+/* nosotros */
+/* footer del index */
+.finish {
+  background-color: gold;
+  height: 100px; }
+  .finish img {
+    padding: 20px;
+    width: 80px;
+    border-radius: 10px; }
+  .finish .horarios {
+    font-size: 20px;
+    margin-left: 370px;
+    margin-top: -30px; }
+
+/* nosotros */
+.noso {
+  background-color: silver;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 2800px; }
+  .noso .puesto1 {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .noso .puesto1 .box {
+      border: 5px solid black;
+      font-size: 30px;
+      text-align: center;
+      margin: 15px;
+      width: 600px;
+      height: 550px; }
+      .noso .puesto1 .box img {
+        width: 590px;
+        height: 540px; }
+
+/* main de ubicacion */
+.UBICACION {
+  background-image: url(../tp-1/media/alfa-romeo-giulia-quadrifoglio-drift.jpg);
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+div .titulo {
+  font-size: 50px; }
+
+div .subtitulo {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  margin-left: 15px; }
+
+/* AUTOS0KM */
+.caja {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 220px;
+  gap: 10px;
+  margin: 0%;
+  padding: 15px;
+  width: 100%;
+  margin: 0%;
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../tp-1/media/alfa-romeo-giulia-quadrifoglio-drift.jpg); }
+
+.area1 {
+  text-align: center;
+  grid-row: 1/ span 3;
+  grid-column: 1/ span 2; }
+  .area1 img {
+    width: 873px;
+    height: 672px;
+    border: 4px solid black; }
+
+.porche {
+  width: 750px;
+  margin-top: 15px;
+  margin-left: 130px;
+  font-size: 26px; }
+
+.area2 {
+  text-align: center;
+  grid-row: 1/span 3; }
+  .area2 img {
+    width: 427px;
+    height: 672px;
+    border: 4px solid black; }
+  .area2 .bmw {
+    margin-top: 15px;
+    font-size: 26px; }
+
+/* MARCAS */
+.main1 {
+  width: 100%;
+  height: 1700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../tp-1/media/51774136-la-estrella-de-la-película-cars-de-pixar-rayo-mcaquuen.jpg); }
+  .main1 div .marcas {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    color: black; }
+  .main1 h2 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: -20px; }
+  .main1 .HONDA {
+    display: flex;
+    justify-content: space-around; }
+    .main1 .HONDA img {
+      height: 300px;
+      margin-top: 50px;
+      margin-left: 83px;
+      border: 8px solid black;
+      margin-right: 78px;
+      width: 400px;
+      transition: transform 0,3s ease; }
+      .main1 .HONDA img:hover {
+        transform: scale(1.5); }
+  .main1 .toyota {
+    display: flex;
+    justify-content: space-around; }
+    .main1 .toyota img {
+      width: 400px;
+      height: 300px;
+      margin-top: 50px;
+      margin-left: 9px;
+      border: 8px solid black;
+      transition: transform 0,3s ease; }
+      .main1 .toyota img:hover {
+        transform: scale(1.5); }
+  .main1 .bentley {
+    display: flex;
+    justify-content: space-around; }
+    .main1 .bentley img {
+      width: 400px;
+      height: 300px;
+      margin-top: 50px;
+      border: 8px solid black;
+      margin-left: 9px;
+      transition: transform 0,3s ease; }
+      .main1 .bentley img:hover {
+        transform: scale(1.5); }
+
+/* footter */
+.footer {
+  background-color: gold;
+  height: 60px; }
